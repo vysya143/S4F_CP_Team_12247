@@ -32,3 +32,17 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+print("\nQuestion 1: How can machine learning models be used to predict air quality levels?")
+print("Answer: Machine learning models can analyze historical data to detect patterns and predict future air quality indices (AQI) using features like weather, traffic, and past pollution levels.")
+
+print("\nQuestion 2: Which features in the dataset are likely to have the most significant impact on air quality?")
+print("Answer: Features such as PM2.5, PM10, NO2, CO levels, traffic density, temperature, humidity, and wind speed typically have the most influence on air quality.")
+
+print("\nQuestion 3: Build a model to predict AQI for the next 24 hours.")
+print("Answer: You can build a model using past 24-hour data as input features to predict future AQI using algorithms like Random Forest or LSTM. Preprocessing, feature engineering, and model evaluation (e.g., using RMSE) are key steps.")
+
+print("\nQuestion 4: How can this model be integrated with a city's traffic management system to reduce pollution?")
+print("Answer: Real-time AQI predictions can inform traffic control systems to reroute vehicles, manage signal timings, or restrict certain types of vehicles in areas with poor air quality.")
+
+print("\nQuestion 5: Discuss the role of AI in mitigating air pollution in developing countries.")
+print("Answer: AI enables low-cost, scalable air quality monitoring, early pollution detection, and informed policy-making in developing countries, even with limited infrastructure.")
